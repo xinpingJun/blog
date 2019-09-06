@@ -5,8 +5,9 @@
     "main": "index.js",
     "scripts": {
         "release": "release-it",
-        "dev": "vuepress dev blog --temp blog/.temp",
-        "build": "vuepress build blog --temp blog/.temp"
+        "dev": "vuepress dev docs --temp docs/.temp",
+        "build": "vuepress build docs --temp docs/.temp",
+        "deploy": "bash deploy.sh"
     },
     "files": [
         "components",
